@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pruebavideopantallas2.Window1Controller">
+   <children>
+      <Button layoutX="247.0" layoutY="304.0" mnemonicParsing="false" onAction="#showWindow2" prefHeight="25.0" prefWidth="107.0" text="Accept" />
+      <Label layoutX="239.0" layoutY="236.0" text="User:" />
+      <TextField fx:id="txtName" layoutX="239.0" layoutY="265.0" onAction="#showWindow2" promptText="Enter your name" />
+      <ImageView fitHeight="170.0" fitWidth="232.0" layoutX="200.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagenes/wallpaper.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
